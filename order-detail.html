@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Htmlchop</title>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"/>
+        <link rel="stylesheet" href="./assets/css/style.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jellekralt/Responsive-Tabs@master/css/responsive-tabs.css" />
+
+        <script src="assets/js/jquery-min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header-wrap">
+    
+                <div class="logo">
+                    <figure>
+                        <a href="#">
+                            <img src="assets/images/logo.svg" alt="">
+                        </a>
+                    </figure>
+                </div>
+    
+                <div class="main">
+    
+                    <nav>
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="#">Home</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+    
+                    <div class="order-now d-none d-lg-block">
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                    
+                </div>
+
+                <div class="hamburger d-block d-lg-none">
+                    <div id="nav-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                </div>
+    
+            </div>
+        </header>
+
+        <section class="main_wrap">
+            <div class="place-order">
+
+                <div class="steps">
+
+                    <ul>
+                        <li><a href="#">setp </a><span>1</span></li>
+                        <li><a href="#">setp </a><span>2</span></li>
+                        <li class="active"><a href="#">setp </a><span>3</span></li>
+                        <li><a href="#">setp </a><span>4</span></li>
+                    </ul>
+
+                    <div class="details">
+                        <p>For custom work in your design, we'll give you a separate cost estimate.</p>
+                    </div>
+
+                </div>
+
+                <div class="select-service">
+
+                    <div class="title"> 
+                        <h4>Order Details</h4>
+                        <p>Our core front end development services</p>
+                    </div>
+
+                    <div class="wrap">
+                        <div class="select-list">
+                            <div class="inner-wrap">
+
+                                <form>
+
+                                    <div class="mb-4">
+                                      <label for="name" class="form-label">Full Name</label>
+                                      <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="John Smith">
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="olivia@untitledui.com">
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="phone-number" class="form-label">Phone number</label>
+                                        <input type="text" id="mobile_code" class="form-control" placeholder="(555) 000-0000" name="name">
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="name" class="form-label">Project Name</label>
+                                        <input type="text" class="form-control" id="project-name" aria-describedby="emailHelp">
+                                    </div>
+ 
+                                    <div class="mb-4">
+                                        <div class="uploader" id="file-upload-form">
+                                            <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+                                            <label for="file-upload" id="file-drag">
+                                                <img id="file-image" src="#" alt="Preview" class="hidden">
+                                                <div id="start">
+                                                  <img src="assets/images/upload-icon.svg" alt="">
+                                                  <div>Drag and Drop the files</div>
+                                                  <div class="label">Upload your design files</div>
+                                                  <span id="file-upload-btn" class="btn btn-primary"> Browse</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="get-quote">
+                            <img src="assets/images/get-quote.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="next-prev d-flex">
+                        <a href="#" class="btn rounded-sm">Previous</a>
+                        <a href="#" class="btn btn-primary rounded-sm">Next</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/jquery.responsive-tabs/latest/jquery.responsiveTabs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="./assets/js/custom-min.js"></script>
+    
+</html>

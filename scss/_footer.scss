@@ -1,0 +1,124 @@
+footer{
+    padding: 128px 0 60px 0;
+    position: relative;
+
+    @media (max-width: 991px) {
+        padding: 60px 0;
+    }
+
+    p, a{
+        font-size: calc(14px + (16 - 14) * ((100vw - 992px) / (1920 - 992)));
+    }
+
+    h5{
+        font-size: calc(16px + (18 - 16) * ((100vw - 992px) / (1920 - 992)));
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 31px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    ul{
+        li{
+            margin-bottom: 24px;
+
+            @media (max-width: 991px) {
+                margin-bottom: 5px;
+            }
+
+            &:nth-last-child(1){
+                margin-bottom: 0;
+            }
+
+            a{
+                line-height: 1;
+                font-weight: 500;
+                color: $dark-electric-blue;
+
+                &:hover{
+                    color: $mint;
+                }
+
+            }
+
+        }
+    }
+
+    .left-wrap{
+        .logo{
+            margin-bottom: 19px;
+        }
+
+        p{
+            margin-bottom: 30px;
+            color: $dark-electric-blue;
+            font-weight: 500;
+        }
+
+        .content{
+            .social-links{
+                ul{
+
+                    li{
+                        line-height: 1;
+                        margin-right: 6px;
+                        margin-bottom: 0;
+                        
+                        &:nth-last-child(1){
+                            margin-right: 0;
+                        }
+
+                        a{
+                            font-size: 24px;
+                            line-height: 1;
+                            background-color: #5a718424;
+
+                            &:hover{
+                                background-color: $mint;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    .right-wrap{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        @media (max-width: 991px) {
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    .cust-links{
+        max-width: 165px;
+        width: 100%;
+        margin-right: 30px;
+        margin-left: 30px;
+
+        &:nth-last-child(1){
+            margin-right: 0;
+        }
+
+        @media (max-width: 991px) {
+            margin: 0;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 576px) {
+            max-width: 50%;
+        }
+
+    }
+
+}
